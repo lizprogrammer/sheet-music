@@ -48,7 +48,9 @@ int main(int argc, string argv[])
         int f = frequency(note);
 
         // Print note to screen
-        printf("%3s: %i\n", note, f);
+       printf("%3s: %i\n", note, f);
+
+       //printf("%c\n", note[2]);
 
         // Write (eighth) note to file
         note_write(s, f, 1);
